@@ -4,9 +4,10 @@
         version="0.0.1">
 
   <name>DPC</name>
+  <license>Apache 2.0 License</license>
 
   <engines>
-    <engine name="cordova" version=">=3.4.0"/>
+    <engine name="cordova-android" version=">=1.8.0"/>
   </engines>
 
   <asset src="www/DPC.js" target="js/DPC.js"/>
@@ -23,7 +24,7 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/DPC.java" target-dir="src/com/example/plugin/"/>
+    <source-file src="src/android/DPC.java" target-dir="src/com/tentackles/plugin/"/>
   </platform>
 
 </plugin>
