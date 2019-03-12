@@ -1,4 +1,0 @@
-#Sun Mar 03 13:28:30 IST 2019
-base.0=/home/ojas/Projects/DPC/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

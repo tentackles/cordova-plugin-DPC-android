@@ -1,26 +1,29 @@
 {
-    "name": "helloworld",
-    "displayName": "HelloCordova",
-    "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Apache Cordova Team",
-    "license": "Apache-2.0",
-    "dependencies": {
-        "cordova-android": "^7.1.4",
-        "cordova-browser": "^5.0.4",
-        "cordova-plugin-whitelist": "^1.3.3"
-    },
-    "cordova": {
-        "plugins": {
-            "cordova-plugin-whitelist": {}
-        },
-        "platforms": [
-            "browser",
-            "android"
-        ]
-    }
+  "name": "cordova-plugin-DPC",
+  "version": "0.0.1",
+  "description": "cordova plugin for android DPC",
+  "cordova": {
+    "id": "cordova-plugin-DPC",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tentackles/cordova-plugin-DPC-android.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "DPC",
+    "android",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Apurva Ojas",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/tentackles/cordova-plugin-DPC-android/issues"
+  },
+  "homepage": "https://github.com/tentackles/cordova-plugin-DPC-android#readme"
 }
