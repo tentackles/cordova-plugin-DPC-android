@@ -115,7 +115,7 @@ public class DPC extends CordovaPlugin {
         params = data.toString();
         
 
-        js = "cordova.plugins.DPC.fireEvent(" +
+        js = "DPC.fireEvent(" +
                 "\"" + event + "\"," + params + ")";
 
 
