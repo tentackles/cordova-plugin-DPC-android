@@ -83,6 +83,6 @@ DPC.prototype.fireEvent = function (event) {
 };
 
 DPC.prototype.greet = function (name, successCallback, errorCallback) {
-    cordova.exec(successCallback, errorCallback, "Hello", "greet", [name]);
+    cordova.exec(successCallback, errorCallback, "DPC", "greet", [name]);
 }
 module.exports = new DPC();
