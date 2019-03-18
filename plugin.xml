@@ -22,6 +22,7 @@
       <feature name="DPC">
         <param name="android-package" value="com.tentackles.plugin.DPC"/>
       </feature>
+      
     </config-file>
 
     <source-file src="src/android/DPC.java" target-dir="src/com/tentackles/plugin/"/>
